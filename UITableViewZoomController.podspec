@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://github.com/Dids/UITableViewZoomController"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Pauli Jokela" => "pauli.jokela@didstopia.com" }
-  s.source           = { :git => "http://github.com/Dids/UITableViewZoomController }
+  s.source           = { :git => "http://github.com/Dids/UITableViewZoomController" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
