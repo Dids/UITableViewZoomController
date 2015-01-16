@@ -23,8 +23,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TTUITableViewZoomController : UITableViewController{
-    NSUInteger currentMaxDisplayedCell; //keep track of the maximum cell index that has been displayed (for the animation, so as we move down the table the cells are animated when they're viewed for the first time - if index is greated than currentMaxDisplayedCell - but then as you scroll back up they're not re-animated.
-    NSUInteger currentMaxDisplayedSection;
+    int currentMaxDisplayedCell; //keep track of the maximum cell index that has been displayed (for the animation, so as we move down the table the cells are animated when they're viewed for the first time - if index is greated than currentMaxDisplayedCell - but then as you scroll back up they're not re-animated.
+    int currentMaxDisplayedSection;
 }
 
 /**  @property cellZoomXScaleFactor

@@ -57,8 +57,8 @@
                          } completion:nil];
         
         
-        currentMaxDisplayedCell = indexPath.row;
-        currentMaxDisplayedSection = indexPath.section;
+        currentMaxDisplayedCell = (int)indexPath.row;
+        currentMaxDisplayedSection = (int)indexPath.section;
     }
 }
 
