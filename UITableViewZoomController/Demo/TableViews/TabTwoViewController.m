@@ -30,7 +30,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return [NSString stringWithFormat:@"Section Number %d", section];
+    return [NSString stringWithFormat:@"Section Number %ld", (long)section];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -48,7 +48,7 @@
     }
     
     // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"This is cell number %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"This is cell number %ld", (long)indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.detailTextLabel.text = @"Some more text here";
     cell.detailTextLabel.textColor = [UIColor whiteColor];
