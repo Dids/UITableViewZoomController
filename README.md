@@ -1,3 +1,5 @@
+# This is a fork of the original. All credits go to Tom Thorpe, while Pauli 'Dids' Jokela just maintains this fork and the cocoapod.
+
 UITableViewZoomController
 =========================
 
